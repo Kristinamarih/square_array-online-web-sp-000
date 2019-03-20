@@ -1,6 +1,6 @@
 def square_array(array)
   arr = [ ]
   array.each do |number|
-    Integer.sqrt(number)
+    number ** 2 
   end
 end
